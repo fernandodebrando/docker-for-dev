@@ -1,0 +1,17 @@
+php:
+  build: ./Dockerfile
+  ports:
+    - "81:81"
+    - "443:443"
+  volumes:
+    - ./www:/var/www/html
+  links: 
+    - db  
+
+db:
+  image: mysql:5.7
+  volumes:
+   - /var/lib/mysql
+  environment:
+   - MYSQL_ROOT_PASSWORD=admin
+   - MYSQL_DATABASE=admin    
