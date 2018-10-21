@@ -5,5 +5,7 @@
 ```
 docker-compose up -d
 ```
-![compose](https://github.com/fernandodebrando/wordpress-mysql-compose/blob/master/Wordpress_Docker.png)
+![compose](https://github.com/fernandodebrando/docker-for-dev/blob/master/wordpress-mysql-compose/Wordpress_Docker.png)
+
+
 
